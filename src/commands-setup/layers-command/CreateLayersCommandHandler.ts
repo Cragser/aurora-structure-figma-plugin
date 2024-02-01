@@ -1,4 +1,4 @@
-import { CommandHandler } from "./CommandHandler";
+import { CommandHandler } from "../CommandHandler";
 import { CreateLayersCommand } from "./CreateLayersCommand";
 
 export class CreateLayersCommandHandler

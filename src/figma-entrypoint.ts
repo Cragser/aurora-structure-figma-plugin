@@ -1,6 +1,6 @@
-import { CreateLayersCommand } from "./commands-setup/CreateLayersCommand";
-import { CreateLayersCommandHandler } from "./commands-setup/CreateLayersCommandHandler";
 import { handleCommand } from "./commands-setup/handleCommand";
+import { CreateLayersCommand } from "./commands-setup/layers-command/CreateLayersCommand";
+import { CreateLayersCommandHandler } from "./commands-setup/layers-command/CreateLayersCommandHandler";
 
 createInvisibleUiForBrowerApiAccess();
 

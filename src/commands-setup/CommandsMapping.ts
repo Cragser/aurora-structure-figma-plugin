@@ -4,7 +4,7 @@ import { CreateShapesCommandHandler } from "../scene-commands/create-shapes/Crea
 import { PaintCurrentUserAvatarCommandHandler } from "../scene-commands/paint-current-user-avatar/PaintCurrentUserAvatarCommandHandler";
 import { Command } from "./Command";
 import { CommandHandler } from "./CommandHandler";
-import { CreateLayersCommandHandler } from "./CreateLayersCommandHandler";
+import { CreateLayersCommandHandler } from "./layers-command/CreateLayersCommandHandler";
 
 // 👋 Add below your new commands.
 // Define its arbitrary key and its corresponding Handler class.
